@@ -1,0 +1,385 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* header */
+#header{
+    background-color: #f8f9fa;
+    /* text-align: center; */
+    padding: 10px 0;
+}
+#w_header{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 0 5px;
+    overflow: hidden;
+}
+#w_header>a{
+    text-decoration: none;
+    float: left;
+    color: black;
+    font-size: 1.25rem;
+    padding: 10px 0;
+}
+#w_header>button{
+    float: right;
+    padding: 15px 20px;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+
+/* main */
+#main{
+    margin: 0;
+    background-image: url("../img/bg-masthead.jpg");  
+    background-position-y: 100%;  
+    background-size: cover;
+}
+#w_main>img{
+    height: 600px;
+    width: 100%;
+}
+#w_main{
+    padding: 10% 0;
+    width: 100%;
+}
+#w_m_img{
+    width: 100%;
+}
+#w_m_body{
+    text-align: center;
+    padding: 0 25%;
+}
+#w_m_body>h1{
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 5%;
+}
+#w_m_input>input{
+    font-size: larger;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+}
+#w_m_input>button{
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px;
+    font-size: medium;
+}
+#m_main{
+    display: none;
+}
+
+
+/* con1 */
+#con1{
+    width: 100%;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    padding: 10% 0;
+}
+#w_con1{
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0 5px;
+}
+#w_con1>.c1_advan{
+    padding: 0 7px ;
+    text-align: center;
+    width: 32%;
+    float: left;
+}
+.c1_advan>i{
+    font-size: 4.5rem;
+    color: #0d6efd;
+}
+#m_con1{
+    display: none;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0 5px;
+}
+#m_con1>.c1_advan{
+    padding: 0 7px ;
+    text-align: center;
+    width: 32%;
+}
+.c1_advan>i{
+    font-size: 4.5rem;
+    color: #0d6efd;
+}
+
+/* con2 */
+#con2{
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    /* padding: 10% 0; */
+}
+#c2_advan{
+    overflow: hidden;
+}
+.c2_text{
+    overflow: hidden;
+    height: 33%;
+    /* float: right; */
+    position: relative;
+}
+.c2_text>img{
+    float: right;
+    width: 50%;
+}
+.c2_t_info{
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 30%;
+    float: left;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    /* padding: 11.2% 0; */
+}
+.c2_t_info>p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.c2_t_info>h2{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+#c2_t_float{
+    /* float: left; */
+}
+#c2_t_float>img{
+    float: left;
+}
+#c2_t_i_float{
+    /* float: right !important;  */
+    left: 50%;
+}
+
+/* people */
+#people{
+    background-color: #f8f9fa;
+}
+#w_people{
+    overflow: hidden;
+    text-align: center;
+}
+#peo{
+    padding: 10% 0;
+}
+#w_people>h1{
+    padding: 0 0 5% 0;
+    margin-top: 7%;
+}
+.cit{
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+    text-align: center;
+    width: 22%;
+}
+.cit>img{
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+    width: 60%;
+    border: 0;
+    border-radius: 50%;
+}
+.cit>h3{
+    margin-top: 15px;
+}
+.cit>h4{
+    margin-top: 5px;
+    margin-bottom: 35%;
+}
+
+/* sign */
+#w_sign{
+    background-size: cover;
+    background-position-y: 60%;
+    background-image: url("../img/bg-masthead.jpg");    
+}
+#w_s_body{
+    text-align: center;
+    padding: 7% 15%;
+}
+#w_s_body>h1{
+    margin-bottom: 10px;
+    color: white;
+}
+#w_s_input>input{
+    font-size: larger;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+}
+#w_s_input>button{
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px;
+    font-size: medium;
+}
+
+/* footer */
+#footer{
+    padding: 5% 10%;
+    background-color: #f8f9fa;
+}
+#w_footer{
+    overflow: hidden;
+}
+#list{
+    float: left;
+    width: 50%;
+}
+#list>ul{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#list>ul>li{
+    color: #0d6efd;
+    text-align: center;
+    list-style: none;
+    width: 19%;
+    float: left;
+}
+#list>p{
+    margin-left: 6%;
+}
+#icons{
+    width: 50%;
+    float: right;
+}
+#insta{
+    width: 32px;
+}
+#icons>a{
+    color: #0d6efd;
+    margin-right: 3%;
+    float: right;
+    font-size: xx-large;
+}
+
+/* mobile screen */
+@media only screen and (max-width: 900px){
+    /* main */
+    #w_main{
+        padding: 20% 0;
+    }
+    #w_m_body{
+        padding: 0;
+    }
+
+    /* con1 */
+    #w_con1>.c1_advan{
+        float: none;
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    /* con2 */
+    .c2_text{
+        float: none;
+        height: 100%;
+    }
+    .c2_text>img{
+        float: none;
+        width: 100%;
+    }
+    .c2_t_info{
+        padding: 10% 10%;
+        text-align: unset;
+        margin: 0;
+        width: auto;
+        float: none;
+        position: unset;
+        transform: unset;
+    }
+    #c2_t_float{
+        float: none;
+    }
+    #c2_t_float>img{
+        float: none;
+    }
+    #c2_t_i_float{
+        float: none;
+    }
+
+    /* people */
+    .cit{
+        float: none;
+        width: 100%;
+        margin-bottom: 10%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .cit>img{
+        width: 25%;
+    }
+    .cit>h4{
+        margin-bottom: 0;
+    }
+
+    /* sign */
+    #w_s_body{
+        padding: 15% 5%;
+    }
+
+    /* footer */
+    #list{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    #list>p{
+        margin: 0;
+    }
+    #list>ul>li{
+        width: 25%;
+    }
+    #icons{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    #icons>a{
+        float: none;
+        text-decoration: none;
+    }
+}
